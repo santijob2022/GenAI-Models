@@ -1,0 +1,7 @@
+**/.env
+__pycache__/
+*.pyc
+*.pyo
+VAEs/Autoencoder/data
+*.zip
+*.ignore
