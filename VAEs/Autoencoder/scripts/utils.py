@@ -67,6 +67,6 @@ def preprocess(imgs):
     """
     imgs = imgs.astype("float32") / 255.0
 
-    imgs = np.pad(imgs, ((0, 0), (2, 2), (2, 2), (0, 0)), constant_values=0.0)
+    # imgs = np.pad(imgs, ((0, 0), (2, 2), (2, 2), (0, 0)), constant_values=0.0)
 
     return imgs
